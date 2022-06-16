@@ -6,3 +6,4 @@ x=str.find('0.8')
 y=float(str[x:])
 print(y)
 
+
