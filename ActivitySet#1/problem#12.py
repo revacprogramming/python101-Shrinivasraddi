@@ -11,10 +11,10 @@ g=list()
 maharshi={}
 for line in maggy:
   m=re.search("From ")
-    m=line.split()
-    if len(m)>0
-      a=m[1]
-      g.append(a)
+  m=line.split()
+  if len(m)>0:
+    a=m[1]
+    g.append(a)
 for word in g:
     maharshi[word]=maharshi.get(word,0)+1
 biggest=None
@@ -23,5 +23,3 @@ for word,s in maharshi.items():
         biggest=s
         bigword=word
 print(bigword,biggest)
-
-
