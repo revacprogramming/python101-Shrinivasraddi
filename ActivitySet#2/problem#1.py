@@ -1,12 +1,11 @@
-
-
 def add(a, b):
-    return  # ...
+    return a+b
 
 
 def main():
-    a = input  # ...
-    b = input  # ...
+    a = float(input())
+    b = float(input())
 
     c = add(a, b)
-    print  # ...
+    print(f"sum of {a} and {b} is {c}")
+main()
